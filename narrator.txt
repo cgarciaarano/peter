@@ -1,0 +1,41 @@
+#type
+Hay gente que para contar historias hace videos, con musica empalagosa y fotos vergonzosas. 
+>pause
+Yo prefiero usar SVN.
+#cmd
+svn log --incremental -r 1 file:///opt/svn/code
+
+#log
+------------------------------------------------------------------------
+r1 | cgarcia | 2010-11-09 17:59:56 +0100 (Tue, 09 Nov 2010) | 1 line
+
+Carga inicial
+
+>pause
+#type
+Todo empezó en noviembre de 2010
+#cmd
+svn log -r 84 http://code.stonework.net/svn
+
+#log
+------------------------------------------------------------------------
+r84 | pedroten | 2010-11-12 15:09:23 +0100 (Fri, 12 Nov 2010) | 3 lines
+
+Añadida la funcionalidad de cambio de columna al resumen de las llamadas al vuelo. Funciona el filtrado(permanece) y la actualización del gráfico. Esto va como un cohete
+
+>pause
+>pause
+>pause
+#type
+A los pocos días ya estábamos al 100%. La moral estaba alta.
+>pause
+#cmd
+svn log -r 402 http://code.stonework.net/svn
+
+#log
+r402 | pedroten | 2011-10-04 12:47:17 +0200 (Tue, 04 Oct 2011) | 2 lines
+
+Pre production version, cross your fingers, say your prayers
+>pause
+#type
+Pronto empezamos
