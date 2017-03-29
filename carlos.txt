@@ -1,8 +1,8 @@
 #type
 Hay gente que para contar historias hace videos, con musica empalagosa y fotos vergonzosas. 
 >pause
-Yo prefiero usar SVN.
-#cmd
+Yo soy más de usar SVN
+#cmd#0.01
 svn log --incremental -r 1 file:///opt/svn/code
 
 #log
@@ -29,8 +29,9 @@ Añadida la funcionalidad de cambio de columna al resumen de las llamadas al vue
 #type
 A los pocos días ya estábamos al 100%. La moral estaba alta. El desarrollo va rápido...
 >pause
+#cmd
 svn log --incremental -r 157 file:///opt/svn/code
-#log
+#log#0.1
 ------------------------------------------------------------------------
 r157 | pedroten | 2010-12-16 19:05:59 +0100 (Thu, 16 Dec 2010) | 2 lines
 
@@ -38,7 +39,7 @@ Invoices!
 
 #cmd
 svn log --incremental -r 271 file:///opt/svn/code
-#log
+#log#0.1
 ------------------------------------------------------------------------
 r271 | pedroten | 2011-03-03 18:27:46 +0100 (Thu, 03 Mar 2011) | 2 lines
 
@@ -46,7 +47,7 @@ Capacity report is working. Cash Flow is flowing... xD
 
 #cmd
 svn log --incremental -r 336 file:///opt/svn/code
-#log
+#log#0.1
 
 ------------------------------------------------------------------------
 r336 | pedroten | 2011-05-06 10:30:48 +0200 (Fri, 06 May 2011) | 2 lines
@@ -55,7 +56,7 @@ added trafficmanager. Bulk initial load solved (hopefully!)
 
 #cmd
 svn log --incremental -r 377 file:///opt/svn/code
-#log
+#log#0.1
 ------------------------------------------------------------------------
 r377 | pedroten | 2011-05-30 18:58:59 +0200 (Mon, 30 May 2011) | 3 lines
 
@@ -63,7 +64,7 @@ smartshaper looking great!
 
 #cmd
 svn log --incremental -r 311 file:///opt/svn/code
-#log
+#log#0.1
 ------------------------------------------------------------------------
 r311 | pedroten | 2011-04-16 19:59:58 +0200 (Sat, 16 Apr 2011) | 2 lines
 
@@ -79,6 +80,7 @@ svn log -r 402 file:///opt/svn/code
 r402 | pedroten | 2011-10-04 12:47:17 +0200 (Tue, 04 Oct 2011) | 2 lines
 
 Pre production version, cross your fingers, say your prayers
+
 >pause
 #type
 Las subidas a pro siempre nos dieron quebraderos de cabeza xD
@@ -98,6 +100,7 @@ He modificado para probar el svn pero no hay cambios
 #type
 Aunque algunos no duraron mucho...
 Pero llegaron más para levantar esto
+
 #cmd
 svn log --incremental -r 521 file:///opt/svn/code
 #log
@@ -125,92 +128,95 @@ r983 | pedroten | 2012-07-02 11:54:25 +0200 (Mon, 02 Jul 2012) | 3 lines
 
 Eliminando un print de Gon en clients views, con lo que mola el logger.debug...
 
+>pause
 #type
 Había que aprender a guiar a la gente, porque muchos más se unieron a la causa
 
-#cmd
+#cmd#0.01
 svn log --incremental -r 909 file:///opt/svn/code
-#log
+#log#0.1
 ------------------------------------------------------------------------
 r909 | mgalan | 2012-06-14 15:27:17 +0200 (Thu, 14 Jun 2012) | 2 lines
 
 added clients.models
 
-#cmd
+#cmd#0.01
 svn log --incremental -r 940 file:///opt/svn/code
-#log
+#log#0.1
 ------------------------------------------------------------------------
 r940 | vtorre | 2012-06-22 11:42:44 +0200 (Fri, 22 Jun 2012) | 1 line
 
 Se diferencia entre los codecs para 32 y 64 bits. Junto con astconv compilado para cada arch. Victor
 
-#cmd
+#cmd#0.01
 svn log --incremental -r 1119 file:///opt/svn/code
-#log
+#log#0.1
 ------------------------------------------------------------------------
 r1119 | acanas | 2012-07-27 10:22:05 +0200 (Fri, 27 Jul 2012) | 2 lines
 
 cli_control new tab cli_client (jqgrid)
 
-#cmd
+#cmd#0.01
 svn log --incremental -r 1418 file:///opt/svn/code
-#log
+#log#0.1
 ------------------------------------------------------------------------
 r1418 | msanchez | 2012-09-12 09:28:35 +0200 (Wed, 12 Sep 2012) | 2 lines
 
 test highchart
 
-#cmd
+#cmd#0.01
 svn log --incremental -r 1693 file:///opt/svn/code
-#log
+#log#0.1
 ------------------------------------------------------------------------
 r1693 | apalomo | 2012-10-04 10:53:43 +0200 (Thu, 04 Oct 2012) | 2 lines
 
 Functions for upserting in Mongo added
 
-#cmd
+#cmd#0.01
 svn log --incremental -r 1906 file:///opt/svn/code
-#log
+#log#0.1
 ------------------------------------------------------------------------
 r1906 | ecervantes | 2012-10-19 13:10:02 +0200 (Fri, 19 Oct 2012) | 1 line
 
 Modificación de los XML enviados a StoneARC para cubrir los nuevos requisitos.
 
-#cmd
+#cmd#0.01
 svn log --incremental -r 2010 file:///opt/svn/code
-#log
+#log#0.1
 ------------------------------------------------------------------------
 r2010 | jfernandez | 2012-11-05 11:33:27 +0100 (Mon, 05 Nov 2012) | 3 lines
 
 not brukva anymore!
 
-#cmd
+#cmd#0.01
 svn log --incremental -r 2592 file:///opt/svn/code
-#log
+#log#0.1
 ------------------------------------------------------------------------
 r2592 | afuentes | 2013-01-28 13:23:12 +0100 (Mon, 28 Jan 2013) | 1 line
 
 Adri
 
-#cmd
+#cmd#0.01
 svn log --incremental -r 5213 file:///opt/svn/code
-#log
+#log#0.1
 ------------------------------------------------------------------------
 r5213 | jvizcaino | 2013-06-17 12:54:38 +0200 (Mon, 17 Jun 2013) | 1 line
 
 New Parameter: Number of opened file descriptors in system
 
-#cmd
+#cmd#0.01
 svn log --incremental -r 5962 file:///opt/svn/code
-#log
+#log#0.1
 ------------------------------------------------------------------------
 r5962 | jfjeronimo | 2013-09-02 15:28:43 +0200 (Mon, 02 Sep 2013) | 1 line
 
 Se añade un comentario a asterisk.conf. Jorge
 
+>pause
 #type
 El resto es historia.
-Una historia que no acaba aqui.
+
+Una historia que no acaba aqui...
 #cmd
 svn log --incremental -r HEAD file:///opt/svn/code
 #log
@@ -218,10 +224,10 @@ svn log --incremental -r HEAD file:///opt/svn/code
 r21454 | cgarcia | 2017-03-28 10:56:40 +0200 (Tue, 28 Mar 2017) | 1 line
 
 Using SRV IP
+
 >pause
 #type
-Ni aqui
-
+Ni aqui...
 #cmd
 git log --author "pedroten"
 #log
@@ -231,9 +237,10 @@ Author: pedroten <pedro.ten@stoneworksolutions.net>
 Date:   Thu Mar 23 17:42:08 2017 +0100
 
     Merge branch 'hotfix/2.9.23-hotfix1'
+
 >pause
 #type
-Pero tu parte en esta historia ha quedado guardada para siempre. 
+Aunque no acabe, tu parte en esta historia ha quedado guardada para siempre. 
 Y aunque ahora hagamos nuestros propios fork, con nuevas ramas y nuevos init, este repositorio será el recuerdo de lo que construimos todos juntos.
 
 Muchísima suerte, te deseo lo mejor.
