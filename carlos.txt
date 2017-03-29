@@ -67,6 +67,7 @@ r311 | pedroten | 2011-04-16 19:59:58 +0200 (Sat, 16 Apr 2011) | 2 lines
 
 lots of fixes from altura!!!
 
+>pause
 #type
 Trabajando hasta desde el pueblo!
 >pause
@@ -128,7 +129,6 @@ Eliminando un print de Gon en clients views, con lo que mola el logger.debug...
 >pause
 #type
 Había que aprender a guiar a la gente, porque muchos más se unieron a la causa
-
 #cmd#0.01
 svn log --incremental -r 909 file:///opt/svn/code
 #log#0.1
@@ -237,7 +237,7 @@ Date:   Thu Mar 23 17:42:08 2017 +0100
 
 >pause
 #type
-Tu parte en esta historia ha quedado guardada para siempre. 
+Tu parte en esta historia ha quedado guardada para siempre.
 Y aunque ahora hagamos nuestros propios fork, con nuevas ramas y nuevos init, este repositorio será el recuerdo de lo que construimos todos juntos.
 
 Muchísima suerte, te deseo lo mejor.
