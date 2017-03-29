@@ -15,7 +15,7 @@ Carga inicial
 #type
 Todo empezó en noviembre de 2010
 #cmd
-svn log -r 84 http://code.stonework.net/svn
+svn log --incremental -r 84 file:///opt/svn/code
 
 #log
 ------------------------------------------------------------------------
@@ -27,15 +27,215 @@ Añadida la funcionalidad de cambio de columna al resumen de las llamadas al vue
 >pause
 >pause
 #type
-A los pocos días ya estábamos al 100%. La moral estaba alta.
+A los pocos días ya estábamos al 100%. La moral estaba alta. El desarrollo va rápido...
 >pause
-#cmd
-svn log -r 402 http://code.stonework.net/svn
+svn log --incremental -r 157 file:///opt/svn/code
+#log
+------------------------------------------------------------------------
+r157 | pedroten | 2010-12-16 19:05:59 +0100 (Thu, 16 Dec 2010) | 2 lines
 
+Invoices!
+
+#cmd
+svn log --incremental -r 271 file:///opt/svn/code
+#log
+------------------------------------------------------------------------
+r271 | pedroten | 2011-03-03 18:27:46 +0100 (Thu, 03 Mar 2011) | 2 lines
+
+Capacity report is working. Cash Flow is flowing... xD
+
+#cmd
+svn log --incremental -r 336 file:///opt/svn/code
+#log
+
+------------------------------------------------------------------------
+r336 | pedroten | 2011-05-06 10:30:48 +0200 (Fri, 06 May 2011) | 2 lines
+
+added trafficmanager. Bulk initial load solved (hopefully!)
+
+#cmd
+svn log --incremental -r 377 file:///opt/svn/code
+#log
+------------------------------------------------------------------------
+r377 | pedroten | 2011-05-30 18:58:59 +0200 (Mon, 30 May 2011) | 3 lines
+
+smartshaper looking great!
+
+#cmd
+svn log --incremental -r 311 file:///opt/svn/code
+#log
+------------------------------------------------------------------------
+r311 | pedroten | 2011-04-16 19:59:58 +0200 (Sat, 16 Apr 2011) | 2 lines
+
+lots of fixes from altura!!!
+
+#type
+Trabajando hasta desde el pueblo
+>pause
+
+#cmd
+svn log -r 402 file:///opt/svn/code
 #log
 r402 | pedroten | 2011-10-04 12:47:17 +0200 (Tue, 04 Oct 2011) | 2 lines
 
 Pre production version, cross your fingers, say your prayers
 >pause
 #type
-Pronto empezamos
+Las subidas a pro siempre nos dieron quebraderos de cabeza xD
+>pause
+
+Por suerte, comenzaron a llegar refuerzos.
+
+#cmd
+svn log --incremental -r 467 file:///opt/svn/code
+#log
+
+------------------------------------------------------------------------
+r467 | descobar | 2012-01-20 11:23:34 +0100 (Fri, 20 Jan 2012) | 2 lines
+
+He modificado para probar el svn pero no hay cambios
+
+#type
+Aunque algunos no duraron mucho...
+Pero llegaron más para levantar esto
+#cmd
+svn log --incremental -r 521 file:///opt/svn/code
+#log
+------------------------------------------------------------------------
+r521 | cagresta | 2012-03-06 12:29:11 +0100 (Tue, 06 Mar 2012) | 3 lines
+
+file added
+#cmd
+svn log --incremental -r 523 file:///opt/svn/code
+#log
+------------------------------------------------------------------------
+r523 | patilla | 2012-03-06 14:03:37 +0100 (Tue, 06 Mar 2012) | 2 lines
+
+htacces updated
+
+#type
+Incluso algunos que no dejaron ni un mísero commit, como Mehdi :´D
+
+Pero claro, tener gente a cargo traía sus complicaciones
+#cmd
+svn log --incremental -r 983 file:///opt/svn/code
+#log
+------------------------------------------------------------------------
+r983 | pedroten | 2012-07-02 11:54:25 +0200 (Mon, 02 Jul 2012) | 3 lines
+
+Eliminando un print de Gon en clients views, con lo que mola el logger.debug...
+
+#type
+Había que aprender a guiar a la gente, porque muchos más se unieron a la causa
+
+#cmd
+svn log --incremental -r 909 file:///opt/svn/code
+#log
+------------------------------------------------------------------------
+r909 | mgalan | 2012-06-14 15:27:17 +0200 (Thu, 14 Jun 2012) | 2 lines
+
+added clients.models
+
+#cmd
+svn log --incremental -r 940 file:///opt/svn/code
+#log
+------------------------------------------------------------------------
+r940 | vtorre | 2012-06-22 11:42:44 +0200 (Fri, 22 Jun 2012) | 1 line
+
+Se diferencia entre los codecs para 32 y 64 bits. Junto con astconv compilado para cada arch. Victor
+
+#cmd
+svn log --incremental -r 1119 file:///opt/svn/code
+#log
+------------------------------------------------------------------------
+r1119 | acanas | 2012-07-27 10:22:05 +0200 (Fri, 27 Jul 2012) | 2 lines
+
+cli_control new tab cli_client (jqgrid)
+
+#cmd
+svn log --incremental -r 1418 file:///opt/svn/code
+#log
+------------------------------------------------------------------------
+r1418 | msanchez | 2012-09-12 09:28:35 +0200 (Wed, 12 Sep 2012) | 2 lines
+
+test highchart
+
+#cmd
+svn log --incremental -r 1693 file:///opt/svn/code
+#log
+------------------------------------------------------------------------
+r1693 | apalomo | 2012-10-04 10:53:43 +0200 (Thu, 04 Oct 2012) | 2 lines
+
+Functions for upserting in Mongo added
+
+#cmd
+svn log --incremental -r 1906 file:///opt/svn/code
+#log
+------------------------------------------------------------------------
+r1906 | ecervantes | 2012-10-19 13:10:02 +0200 (Fri, 19 Oct 2012) | 1 line
+
+Modificación de los XML enviados a StoneARC para cubrir los nuevos requisitos.
+
+#cmd
+svn log --incremental -r 2010 file:///opt/svn/code
+#log
+------------------------------------------------------------------------
+r2010 | jfernandez | 2012-11-05 11:33:27 +0100 (Mon, 05 Nov 2012) | 3 lines
+
+not brukva anymore!
+
+#cmd
+svn log --incremental -r 2592 file:///opt/svn/code
+#log
+------------------------------------------------------------------------
+r2592 | afuentes | 2013-01-28 13:23:12 +0100 (Mon, 28 Jan 2013) | 1 line
+
+Adri
+
+#cmd
+svn log --incremental -r 5213 file:///opt/svn/code
+#log
+------------------------------------------------------------------------
+r5213 | jvizcaino | 2013-06-17 12:54:38 +0200 (Mon, 17 Jun 2013) | 1 line
+
+New Parameter: Number of opened file descriptors in system
+
+#cmd
+svn log --incremental -r 5962 file:///opt/svn/code
+#log
+------------------------------------------------------------------------
+r5962 | jfjeronimo | 2013-09-02 15:28:43 +0200 (Mon, 02 Sep 2013) | 1 line
+
+Se añade un comentario a asterisk.conf. Jorge
+
+#type
+El resto es historia. Una historia que no acaba aqui
+#cmd
+svn log --incremental -r HEAD file:///opt/svn/code
+#log
+------------------------------------------------------------------------
+r21454 | cgarcia | 2017-03-28 10:56:40 +0200 (Tue, 28 Mar 2017) | 1 line
+
+Using SRV IP
+
+#type
+Ni aqui
+
+#cmd
+git log --author "pedroten"
+#log
+commit 9a9b180d7667158472482b7334615b1f5ff1cedd
+Merge: 1c9345e 7e8822d
+Author: pedroten <pedro.ten@stoneworksolutions.net>
+Date:   Thu Mar 23 17:42:08 2017 +0100
+
+    Merge branch 'hotfix/2.9.23-hotfix1'
+>pause
+#type
+Pero tu parte en esta historia ha quedado guardada para siempre. 
+Y aunque ahora hagamos nuestros propios fork, con nuevas ramas y nuevos init, este repositorio será el recuerdo de lo que construimos todos juntos.
+
+Muchísima suerte, te deseo lo mejor.
+Vuela alto, Pete!
+>pause
+>clear

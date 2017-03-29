@@ -43,6 +43,10 @@ def pause(delay=1):
     time.sleep(delay)
 
 
+def clear():
+    os.system('clear')
+
+
 def run():
     styles = {
         'type': narrator,
@@ -50,7 +54,8 @@ def run():
         'cmd': cmd,
     }
 
-    commands = {'pause': pause}
+    commands = {'pause': pause,
+                'clear': clear}
 
     style = typewrite
     command = None
