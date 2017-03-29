@@ -60,7 +60,7 @@ def run():
     style = typewrite
     command = None
     delay = None
-    with open('narrator.txt') as fn:
+    with open('carlos.txt') as fn:
         for line in (line.strip() for line in fn.readlines()):
             # Parse styles
             if line.startswith('#'):

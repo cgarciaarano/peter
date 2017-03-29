@@ -209,7 +209,8 @@ r5962 | jfjeronimo | 2013-09-02 15:28:43 +0200 (Mon, 02 Sep 2013) | 1 line
 Se añade un comentario a asterisk.conf. Jorge
 
 #type
-El resto es historia. Una historia que no acaba aqui
+El resto es historia.
+Una historia que no acaba aqui.
 #cmd
 svn log --incremental -r HEAD file:///opt/svn/code
 #log
@@ -217,7 +218,7 @@ svn log --incremental -r HEAD file:///opt/svn/code
 r21454 | cgarcia | 2017-03-28 10:56:40 +0200 (Tue, 28 Mar 2017) | 1 line
 
 Using SRV IP
-
+>pause
 #type
 Ni aqui
 
